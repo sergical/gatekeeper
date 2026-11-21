@@ -11,7 +11,6 @@
 import type * as ai from "../ai.js";
 import type * as analyses from "../analyses.js";
 import type * as auth from "../auth.js";
-import type * as crons from "../crons.js";
 import type * as github from "../github.js";
 import type * as http from "../http.js";
 import type * as internals from "../internals.js";
@@ -30,7 +29,6 @@ declare const fullApi: ApiFromModules<{
   ai: typeof ai;
   analyses: typeof analyses;
   auth: typeof auth;
-  crons: typeof crons;
   github: typeof github;
   http: typeof http;
   internals: typeof internals;
